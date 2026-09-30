@@ -2,6 +2,7 @@ name: Update package commit metadata
 
 on:
   push:
+    branches: ['**']
 
 permissions:
   contents: write
